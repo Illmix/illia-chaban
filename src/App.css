@@ -6,11 +6,22 @@
     gap: 5rem;
 }
 
+.left-side, .right-side {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.left-side {
+    min-height: 100svh;
+    justify-content: space-between;
+}
+
 .header-info {
     display: flex;
     flex-direction: column;
     gap: .3rem;
-    color: var(--text-color);
+    color: var(--heading-color);
 }
 
 @media screen and (max-width: 1050px) {
