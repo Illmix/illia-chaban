@@ -7,8 +7,9 @@
 :root {
   /*Define variables*/
   --bg-color: #0c142e;
-  --text-color: rgba(198, 210, 234, 0.8);
-  --page-width: var(1280px);
+  --text-color: rgba(224, 228, 241, 1);
+  --text-color-opacity: rgba(224, 228, 241, .85);
+  --page-width: 1280px;
   font-family: Inter, system-ui, Roboto, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -32,8 +33,13 @@ a {
 
 body {
   margin: 0;
+  color: var(--text-color);
 }
 
 h1 {
   line-height: 1.1;
+}
+
+span, p {
+  color: var(--text-color-opacity);
 }

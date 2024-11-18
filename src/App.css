@@ -3,16 +3,19 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    gap: 5rem;
 }
 
 .header-info {
     display: flex;
     flex-direction: column;
     gap: .3rem;
+    color: var(--text-color);
 }
 
 @media screen and (max-width: 1050px) {
   .layout-container {
     flex-direction: column;
+      gap: 2rem;
   }
 }
