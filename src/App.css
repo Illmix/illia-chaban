@@ -5,6 +5,11 @@
   margin: 0 auto;
 }
 
+.header-info {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
 
 @media screen and (max-width: 1050px) {
   .layout-container {
