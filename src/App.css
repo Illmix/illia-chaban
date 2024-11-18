@@ -1,8 +1,8 @@
 .layout-container {
-  max-width: var(--page-width);
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
+    max-width: var(--page-width);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .header-info {
