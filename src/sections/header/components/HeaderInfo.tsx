@@ -1,6 +1,6 @@
 const HeaderInfo = () => {
     return (
-        <div>
+        <div className="header-info">
             <h1>
                 Illia Chaban
             </h1>
