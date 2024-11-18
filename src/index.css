@@ -6,7 +6,7 @@
 
 :root {
   /*Define variables*/
-  --bg-color: #111E3FFF;
+  --bg-color: #0c142e;
   --text-color: rgba(198, 210, 234, 0.8);
   --page-width: var(1280px);
   font-family: Inter, system-ui, Roboto, Avenir, Helvetica, Arial, sans-serif;
