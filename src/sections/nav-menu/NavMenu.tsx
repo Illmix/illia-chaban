@@ -1,14 +1,20 @@
 const NavMenu = () => {
     return (
-        <ul>
-            <li>
-                <a>
-                    About
+        <ul className="nav-menu">
+            <li className="nav-menu-item">
+                <a className="nav-link active">
+                    <span className="nav-indicator"></span>
+                    <span className="nav-link-text">
+                        About
+                    </span>
                 </a>
             </li>
             <li>
-                <a>
-                    Experience
+                <a className="nav-link">
+                    <span className="nav-indicator"></span>
+                    <span className="nav-link-text">
+                        Experience
+                    </span>
                 </a>
             </li>
             <li>

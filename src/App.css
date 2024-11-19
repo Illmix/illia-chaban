@@ -30,6 +30,42 @@
     color: var(--heading-color);
 }
 
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: .8em;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.nav-indicator {
+    width: 2rem;
+    height: 0.005rem;
+    background-color: var(--heading-color);
+    opacity: 0.5;
+}
+
+.active .nav-indicator {
+    width: 4rem;
+    opacity: 1;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    cursor: pointer;
+    color: var(--heading-color);
+}
+
+.nav-link-text {
+    opacity: 0.5;
+}
+
+.active .nav-link-text {
+    opacity: 1;
+}
+
 @media screen and (max-width: 1050px) {
   .layout-container {
     flex-direction: column;
