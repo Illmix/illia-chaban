@@ -3,7 +3,7 @@ import NavMenu from "../nav-menu/NavMenu.tsx";
 
 const Header = () => {
     return (
-        <header>
+        <header className="header">
             <HeaderInfo/>
             <NavMenu/>
         </header>

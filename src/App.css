@@ -23,6 +23,12 @@
     gap: 3rem;
 }
 
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
 .header-info {
     display: flex;
     flex-direction: column;
