@@ -2,9 +2,9 @@ import HeaderInfo from "./components/HeaderInfo.tsx";
 
 const Header = () => {
     return (
-        <div>
+        <header>
             <HeaderInfo/>
-        </div>
+        </header>
     );
 };
 
