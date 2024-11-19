@@ -1,9 +1,9 @@
 .layout-container {
     max-width: var(--page-width);
     display: flex;
-    justify-content: space-between;
-    margin: 5rem auto;
+    justify-content: center;
     gap: 5rem;
+    margin: 5rem auto;
 }
 
 .left-side, .right-side {
