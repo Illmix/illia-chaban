@@ -2,7 +2,7 @@
     max-width: var(--page-width);
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 5rem auto;
     gap: 5rem;
 }
 
