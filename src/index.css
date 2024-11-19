@@ -10,7 +10,7 @@
   --heading-color: rgba(226, 232, 240, .95);
   --text-color: rgba(210, 210, 216, 0.95);
   --page-width: 1280px;
-  --transition: 0.2s ease-in-out;
+  --transition: 0.1s ease-out;
   font-family: Inter, system-ui, Roboto, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
