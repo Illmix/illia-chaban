@@ -1,27 +1,16 @@
+import NavItem from "./components/NavItem.tsx";
+import {useState} from "react";
+
+const navigationButtons = [{label: 'About', link: '#about'}, {label: 'Experience', link: '#experience'}, {label: 'Projects', link: '#projects'}]
 const NavMenu = () => {
+    const [activeLink] = useState('#about');
     return (
         <ul className="nav-menu">
-            <li className="nav-menu-item">
-                <a className="nav-link active">
-                    <span className="nav-indicator"></span>
-                    <span className="nav-link-text">
-                        About
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a className="nav-link">
-                    <span className="nav-indicator"></span>
-                    <span className="nav-link-text">
-                        Experience
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a>
-                    Projects
-                </a>
-            </li>
+            {navigationButtons.map(button =>
+                <li key={button.link}>
+                    <NavItem label={button.label} link={button.link} active={button.link === activeLink}/>
+                </li>
+            )}
         </ul>
     );
 };
