@@ -1,4 +1,4 @@
-import NavItem from "./components/NavItem.tsx";
+import NavItem from "./NavItem.tsx";
 import {useState} from "react";
 
 const navigationButtons = [{label: 'About', link: '#about'}, {label: 'Experience', link: '#experience'}, {label: 'Projects', link: '#projects'}]

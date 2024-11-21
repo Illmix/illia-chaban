@@ -1,5 +1,5 @@
 import HeaderInfo from "./components/HeaderInfo.tsx";
-import NavMenu from "../nav-menu/NavMenu.tsx";
+import NavMenu from "./components/nav-menu/NavMenu.tsx";
 
 const Header = () => {
     return (
