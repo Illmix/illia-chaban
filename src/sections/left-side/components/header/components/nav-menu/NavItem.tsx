@@ -9,10 +9,10 @@ const NavItem = ({label, link, active, onClick}: NavItemsProps) => {
     return (
         <a
             href={link}
-            className={`nav-link ${active ? "active" : ""}`}
+            className={`nav-link animate ${active ? "active" : ""}`}
             onClick={onClick}
         >
-            <span className="nav-indicator"></span>
+            <span className="nav-indicator animate"></span>
             <span className="nav-link-text">
                 {label}
             </span>
