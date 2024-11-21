@@ -1,10 +1,10 @@
 import * as React from "react";
 
-interface LeftSideProps {
+interface RightSideProps {
     children: React.ReactNode;
 }
 
-const LeftSide = ({children}: LeftSideProps) => {
+const RightSide = ({children}: RightSideProps) => {
     return (
         <div className="right-side">
             {children}
@@ -12,4 +12,4 @@ const LeftSide = ({children}: LeftSideProps) => {
     );
 };
 
-export default LeftSide;
+export default RightSide;
