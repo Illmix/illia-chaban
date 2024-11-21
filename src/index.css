@@ -8,7 +8,7 @@
   /*Define variables*/
   --bg-color: #0c142e;
   --heading-color: rgba(226, 232, 240, .95);
-  --text-color: rgba(210, 210, 216, 0.95);
+  --text-color: rgb(156, 171, 189);
   --page-width: 1280px;
   --transition: 0.1s ease-out;
   font-family: Inter, system-ui, Roboto, Avenir, Helvetica, Arial, sans-serif;
@@ -39,6 +39,7 @@ body {
 
 h1 {
   line-height: 1.1;
+  font-size: 3rem;
 }
 
 span, p {
