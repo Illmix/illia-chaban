@@ -5,6 +5,7 @@ import LeftSide from "./sections/left-side/LeftSide.tsx";
 import Socials from "./sections/left-side/components/socials/Socials.tsx";
 import RightSide from "./sections/right-side/RightSide.tsx";
 import Summary from "./sections/right-side/components/Summary.tsx";
+import Experience from "./sections/right-side/components/Experience.tsx";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         </LeftSide>
         <RightSide>
             <Summary/>
+            <Experience/>
         </RightSide>
     </Layout>
   )
