@@ -135,6 +135,10 @@
     color: rgb(94 234 212);
 }
 
+.experience-item:hover svg {
+    transform: translate(5px, -5px);
+}
+
 .experience-dates {
     text-wrap: nowrap;
     font-size: .8rem;
