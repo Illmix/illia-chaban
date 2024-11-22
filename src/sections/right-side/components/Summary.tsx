@@ -9,14 +9,14 @@ const Summary = () => {
             </p>
             <p className="summary-text">
                 Relocated to Germany in 2022 due to the Russian invasion of Ukraine. Successfully completed an
-                Associate Degree in Computer Science remotely from a Ukrainian college. Subsequently, joined <strong className="heading-color">HomeKlick
-                GmbH</strong>, a small IT company, where I worked as a <strong className="heading-color">Full Stack Developer</strong> for nearly
+                Associate Degree in Computer Science remotely from a Ukrainian college. Subsequently, joined <strong className="heading">HomeKlick
+                GmbH</strong>, a small IT company, where I worked as a <strong className="heading">Full Stack Developer</strong> for nearly
                 two years. My
                 role primarily focused
-                on <strong className="heading-color">frontend development (80%)</strong> with additional backend responsibilities (20%). Key
+                on <strong className="heading">frontend development (80%)</strong> with additional backend responsibilities (20%). Key
                 contributions included
                 developing
-                and maintaining <strong className="heading-color">dynamic, responsive websites</strong> enhancing user interfaces to ensure
+                and maintaining <strong className="heading">dynamic, responsive websites</strong> enhancing user interfaces to ensure
                 seamless interactions,
                 and optimizing APIs and database structures to improve system reliability and scalability.
             </p>
