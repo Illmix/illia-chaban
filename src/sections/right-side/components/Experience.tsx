@@ -1,42 +1,18 @@
+import {experiences} from "../../../config.ts";
+import WorkSectionItem from "../../../components/WorkSectionItem.tsx";
 
-const technologies = ["JavaScript", "TypeScript", "HTML & CSS", "React", "Next.js", "Flask"]
 const Experience = () => {
     return (
         <div className="experience-container">
-            <a href="https://home-klick.de" target="_blank">
-                <div className="experience-item animate">
-                <span className="experience-dates">
-                    JULY 2023 — NOV 2024
-                </span>
-                    <div className="experience-description">
-                        <h3 className="heading animate"><span>Fullstack Developer · HomeKlick GmbH </span><span><svg
-                            width="1rem" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                            className="animate"
-                            aria-hidden="true"><path
-                            d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                            clip-rule="evenodd"></path></svg></span></h3>
-                        <p className="experience-text">
-                            Build, style, and ship high-quality websites.
-                            Work closely with cross-functional teams, including developers, designers, and product
-                            managers,
-                            to implement best approaches in web development.
-                        </p>
-                        <div className="technologies">
-                            <ul className="technologies-list">
-                                {
-                                    technologies.map(tech =>
-                                        <li key={tech} className="technologies-item">
-                                            {tech}
-                                        </li>
-                                    )
-                                }
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </a>
+            {experiences.map((e) =>
+                <WorkSectionItem
+                    title={e.title}
+                    description={e.description}
+                    technologies={e.technologies}
+                    link={e.link}
+                    date={e.date}
+                />
+            )}
         </div>
     );
 };

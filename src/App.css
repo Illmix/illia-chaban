@@ -105,14 +105,14 @@
     gap: 1rem;
 }
 
-.experience-item {
+.work-section-item {
     display: flex;
     gap: 1.5rem;
     cursor: pointer;
     position: relative;
 }
 
-.experience-item:before {
+.work-section-item:before {
     content: '';
     position: absolute;
     left: -5%;
@@ -126,38 +126,38 @@
     transition: var(--transition);
 }
 
-.experience-item:hover:before {
+.work-section-item:hover:before {
     opacity: 1;
     transform: translateY(-5px);
 }
 
-.experience-item:hover h3{
+.work-section-item:hover h3{
     color: rgb(94 234 212);
 }
 
-.experience-item:hover svg {
+.work-section-item:hover svg {
     transform: translate(5px, -5px);
 }
 
-.experience-dates {
+.work-section-dates {
     text-wrap: nowrap;
     font-size: .8rem;
     text-align: left;
     margin-top: .2rem;
 }
 
-.experience-description {
+.work-section-description {
     display: flex;
     flex-direction: column;
     gap: .4rem;
     flex-grow: 1;
 }
 
-.experience-description h3 {
+.work-section-description h3 {
     font-size: 1rem;
 }
 
-.experience-text {
+.work-section-text {
     font-size: .92rem;
 }
 
