@@ -7,7 +7,9 @@ interface LeftSideProps {
 const LeftSide = ({children}: LeftSideProps) => {
     return (
         <div className="left-side">
-            {children}
+            <div className="left-side-wrapper">
+                {children}
+            </div>
         </div>
     );
 };

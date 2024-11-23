@@ -14,10 +14,12 @@
     padding: 5rem 0;
 }
 
-.left-side {
-    min-height: 100svh;
+.left-side-wrapper {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    position: sticky;
+    height: 89svh;
+    position: fixed;
 }
 
 .right-side {
