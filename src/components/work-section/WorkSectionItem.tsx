@@ -27,7 +27,7 @@ const WorkSectionItem = ({
                     </span>
                 }
                 {picture &&
-                    <img className="work-picture" src={picture} alt="title"/>
+                    <img className="work-picture animate" src={picture} alt="title"/>
                 }
                 <div className="work-section-description">
                     <h3 className="heading animate"><span>{title}</span><span><svg

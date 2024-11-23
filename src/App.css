@@ -117,6 +117,7 @@
     width: 8.9rem;
     height: 5rem;
     border-radius: .5rem;
+    border: 2px solid rgba(226,232,240,.1);
 }
 
 .resume-link {
@@ -163,6 +164,10 @@
 
 .work-section-item:hover svg {
     transform: translate(5px, -5px);
+}
+
+.work-section-item:hover .work-picture{
+    border: 2px solid rgba(226,232,240,.4);
 }
 
 .work-section-dates {
