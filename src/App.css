@@ -119,6 +119,10 @@
     border-radius: .5rem;
 }
 
+.resume-link {
+    width: max-content;
+}
+
 .resume-link:hover {
     color: rgb(94 234 212);
 }

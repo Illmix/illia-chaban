@@ -16,7 +16,7 @@ const Summary = () => {
 
     return (
         <div className="summary-container">
-            <div className="observer" ref={ref} id="about"></div>
+            <div className="observer" ref={ref} id="#about"></div>
             <p className="summary-text">
                 I'm a 20 year old fullstack developer with 2 years of full-time experience. Proficient in both front-end and back-end devel-
                 opment, with expertise in React, Next.js, TypeScript, Flask, MongoDB. Strong problem-solving abilities, a keen eye for

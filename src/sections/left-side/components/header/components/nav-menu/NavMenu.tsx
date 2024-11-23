@@ -20,6 +20,7 @@ const NavMenu = () => {
             {navigationButtons.map(button =>
                 <li key={button.link}>
                     <NavItem
+                        offset={button.link === "#about" ? -80 : 80}
                         label={button.label}
                         link={button.link}
                         active={button.link === activeLink}

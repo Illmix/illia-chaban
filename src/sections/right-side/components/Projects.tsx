@@ -23,7 +23,7 @@ const Projects = () => {
     return (
         <div className="work-container">
             <WorkSectionList works={projects}/>
-            <div className="observer" ref={ref} style={{bottom: '-5rem'}}></div>
+            <div className="observer" ref={ref} style={{bottom: '-5rem'}} id="#projects"></div>
         </div>
     );
 };
