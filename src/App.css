@@ -102,7 +102,22 @@
 .summary-container, .experience-container {
     display: flex;
     flex-direction: column;
+}
+
+.summary-container {
     gap: 1rem;
+}
+
+.experience-container {
+    gap: 2rem;
+}
+
+.resume-link:hover {
+    color: rgb(94 234 212);
+}
+
+.resume-link:hover svg {
+    transform: translate(5px, -5px);
 }
 
 .work-section-item {
