@@ -46,6 +46,7 @@
     gap: .8em;
     list-style-type: none;
     text-transform: uppercase;
+    width: max-content;
 }
 
 .nav-indicator {
