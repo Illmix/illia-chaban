@@ -7,8 +7,8 @@ const HeaderInfo = () => {
             <h3>
                 Full Stack Developer
             </h3>
-            <span className="text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, quidem.
+            <span>
+                I build seamless, user-focused web applications<br/>with attention to detail.
             </span>
         </div>
     );
