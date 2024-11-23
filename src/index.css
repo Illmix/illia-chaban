@@ -63,3 +63,7 @@ span, p {
 .not-active {
   opacity: .3;
 }
+
+.observer {
+  position: absolute;
+}

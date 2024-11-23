@@ -9,7 +9,7 @@ const Summary = () => {
 
     useEffect(() => {
         if (!isVisible)
-            dispatch(setActiveSection({activeSection: 'projects'}))
+            dispatch(setActiveSection({activeSection: 'experience'}))
         else
             dispatch(setActiveSection({activeSection: 'about'}))
     }, [isVisible])
