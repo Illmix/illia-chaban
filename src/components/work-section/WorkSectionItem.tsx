@@ -1,4 +1,11 @@
-import {IWorkItem} from "../types/IWorkItem.ts";
+import {IWorkItem} from "../../types/IWorkItem.ts";
+import {MouseEventHandler} from "react";
+
+interface WorkSectionItemProps extends IWorkItem {
+    className?: string;
+    onMouseEnter?: MouseEventHandler;
+    onMouseLeave?: MouseEventHandler;
+}
 
 const WorkSectionItem = ({
                          title,
@@ -7,7 +14,7 @@ const WorkSectionItem = ({
                          date,
                          picture,
                          link
-}: IWorkItem) => {
+}: WorkSectionItemProps) => {
     return (
         <a href={link} target="_blank">
             <div className="work-section-item animate">

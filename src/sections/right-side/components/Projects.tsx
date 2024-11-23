@@ -1,5 +1,5 @@
 import {projects} from "../../../config.ts";
-import WorkSectionItem from "../../../components/WorkSectionItem.tsx";
+import WorkSectionItem from "../../../components/work-section/WorkSectionItem.tsx";
 
 const Projects = () => {
     return (

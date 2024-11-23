@@ -5,5 +5,5 @@ export interface IWorkItem {
     date?: string;
     picture?: string;
     link: string;
-    id?: number;
+    id: number;
 }

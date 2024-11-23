@@ -1,5 +1,5 @@
 import {experiences} from "../../../config.ts";
-import WorkSectionItem from "../../../components/WorkSectionItem.tsx";
+import WorkSectionItem from "../../../components/work-section/WorkSectionItem.tsx";
 import resume from "../../../assets/Resume.pdf"
 const Experience = () => {
     return (
