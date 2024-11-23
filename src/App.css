@@ -99,17 +99,20 @@
 }
 
 
-.summary-container, .experience-container {
+.summary-container, .work-container{
     display: flex;
     flex-direction: column;
-}
-
-.summary-container {
     gap: 1rem;
 }
 
-.experience-container {
+.work-container {
     gap: 2rem;
+}
+
+.work-picture {
+    width: 8.9rem;
+    height: 5rem;
+    border-radius: .5rem;
 }
 
 .resume-link:hover {

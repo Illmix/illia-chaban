@@ -3,7 +3,7 @@ import WorkSectionItem from "../../../components/WorkSectionItem.tsx";
 import resume from "../../../assets/Resume.pdf"
 const Experience = () => {
     return (
-        <div className="experience-container">
+        <div className="work-container">
             {experiences.map((e) =>
                 <WorkSectionItem
                     title={e.title}
