@@ -18,5 +18,5 @@ const observerSlice = createSlice({
     }
 })
 
-export const { setActiveSection } = userSlice.actions;
+export const { setActiveSection } = observerSlice.actions;
 export default observerSlice.reducer;
