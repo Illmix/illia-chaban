@@ -22,6 +22,7 @@ const Projects = () => {
     console.log(activeSection)
     return (
         <div className="work-container">
+            <h3 className="heading mobile-section-header">PROJECTS</h3>
             <WorkSectionList works={projects}/>
             <div className="observer" ref={ref} style={{bottom: '-5rem'}} id="#projects"></div>
         </div>

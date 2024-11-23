@@ -11,7 +11,7 @@
   --text-color: rgb(156, 171, 189);
   --page-width: 1280px;
   --transition: 0.1s ease-out;
-  font-family: Arial, sans-serif;
+  font-family: Inter, Roboto, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 500;
   color-scheme: light dark;
