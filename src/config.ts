@@ -25,7 +25,7 @@ export const projects: IWorkItem[] = [
         title: "3D Konfigurator ",
         description: "The web-application designed for virtual exploration and customization of residential properties.",
             technologies: ['React', 'JavaScript', 'HTML & CSS', 'Flask', 'Docker', 'Nginx'],
-        id: 1,
+        id: 2,
         link: 'https://demo.app.home-klick.dev/?key=AMS004-TH01',
         picture: configurator3D
     }

@@ -18,7 +18,6 @@ const WorkSectionItem = ({
                          className,
                          link
 }: WorkSectionItemProps) => {
-    console.log(className)
     return (
         <a href={link} target="_blank">
             <div className={`work-section-item animate ${className}`} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
