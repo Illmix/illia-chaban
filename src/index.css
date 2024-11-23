@@ -59,3 +59,7 @@ span, p {
 .text {
   color: var(--text-color);
 }
+
+.not-active {
+  opacity: .3;
+}

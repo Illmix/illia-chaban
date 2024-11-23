@@ -13,11 +13,15 @@ const WorkSectionItem = ({
                          technologies,
                          date,
                          picture,
+                         onMouseEnter,
+                         onMouseLeave,
+                         className,
                          link
 }: WorkSectionItemProps) => {
+    console.log(className)
     return (
         <a href={link} target="_blank">
-            <div className="work-section-item animate">
+            <div className={`work-section-item animate ${className}`} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
                 {date &&
                     <span className="work-section-dates">
                         {date}
@@ -34,7 +38,7 @@ const WorkSectionItem = ({
                         className="animate"
                         aria-hidden="true"><path
                         d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                        clip-rule="evenodd"></path></svg></span></h3>
+                        ></path></svg></span></h3>
                     <p className="work-section-text">
                         {description}
                     </p>
