@@ -1,11 +1,4 @@
-interface WorkSectionItemProps {
-    title: string;
-    description: string;
-    technologies: string[];
-    date?: string;
-    picture?: string;
-    link: string;
-}
+import {IWorkItem} from "../types/IWorkItem.ts";
 
 const WorkSectionItem = ({
                          title,
@@ -14,7 +7,7 @@ const WorkSectionItem = ({
                          date,
                          picture,
                          link
-}: WorkSectionItemProps) => {
+}: IWorkItem) => {
     return (
         <a href={link} target="_blank">
             <div className="work-section-item animate">
@@ -24,7 +17,7 @@ const WorkSectionItem = ({
                     </span>
                 }
                 {picture &&
-                    <img src={picture} alt="title"/>
+                    <img className="work-picture" src={picture} alt="title"/>
                 }
                 <div className="work-section-description">
                     <h3 className="heading animate"><span>{title}</span><span><svg
