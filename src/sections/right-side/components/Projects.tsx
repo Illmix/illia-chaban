@@ -4,7 +4,6 @@ import useAppDispatch from "../../../hooks/useAppDispatch.ts";
 import useVisibility from "../../../hooks/useVisibility.ts";
 import {useEffect} from "react";
 import {setActiveSection} from "../../../store/reducers/observerReducer.ts";
-import useAppSelector from "../../../hooks/useAppSelector.tsx";
 
 const Projects = () => {
     const dispatch = useAppDispatch();
@@ -17,9 +16,6 @@ const Projects = () => {
             dispatch(setActiveSection({activeSection: 'projects'}))
     }, [isVisible])
 
-    const activeSection = useAppSelector(state => state.observer.activeSection)
-
-    console.log(activeSection)
     return (
         <div className="work-container">
             <h3 className="heading mobile-section-header">PROJECTS</h3>
