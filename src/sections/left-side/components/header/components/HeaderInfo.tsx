@@ -1,6 +1,6 @@
 const HeaderInfo = () => {
     return (
-        <div className="header-info">
+        <div className="header-info flex flex-col gap-[0.3rem]">
             <h1>
                 Illia Chaban
             </h1>
