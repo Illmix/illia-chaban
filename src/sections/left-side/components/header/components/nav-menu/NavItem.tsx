@@ -10,19 +10,16 @@ interface NavItemsProps {
 
 const NavItem = ({label, link, active, onClick, offset}: NavItemsProps) => {
     return (
-        <Link to={link} smooth={true} duration={200} offset={offset}>
-            <a
-                href={link}
-                className={`nav-link animate ${active ? "active" : ""}`}
-                onClick={onClick}
-            >
+        <Link to={link} smooth={true} duration={200} offset={offset} onClick={onClick}>
+            <span className={`nav-link animate ${active ? "active" : ""}`}>
                 <span className="nav-indicator animate"></span>
                 <span className="nav-link-text">
-                {label}
+                    {label}
+                </span>
             </span>
-            </a>
         </Link>
     );
 };
+
 
 export default NavItem;
