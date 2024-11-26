@@ -1,8 +1,4 @@
-.nav-indicator {
-    width: 2rem;
-    height: 0.005rem;
-    background-color: var(--heading-color);
-}
+
 
 .nav-link.active {
     opacity: 1;

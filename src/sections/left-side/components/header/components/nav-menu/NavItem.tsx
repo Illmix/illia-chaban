@@ -12,7 +12,7 @@ const NavItem = ({label, link, active, onClick, offset}: NavItemsProps) => {
     return (
         <Link to={link} smooth={true} duration={200} offset={offset} onClick={onClick}>
             <span className={`nav-link animate ${active ? "active" : ""}`}>
-                <span className="nav-indicator animate"></span>
+                <span className="nav-indicator animate w-[2rem] h-[0.005rem] bg-[var(--heading-color)]"></span>
                 <span className="nav-link-text">
                     {label}
                 </span>
