@@ -14,7 +14,7 @@ export const experiences: IWorkItem[] = [{
 
 export const projects: IWorkItem[] = [
     {
-        title: "Admin panel ",
+        title: "Admin panel",
         description: "Admin panel for complete management of buildings, apartments, requests, etc. Still under development.",
         technologies: ['Next.js', 'TypeScript', 'HTML & CSS', 'Flask', 'Docker', 'Redux'],
         id: 1,
@@ -22,7 +22,7 @@ export const projects: IWorkItem[] = [
         picture: adminPanel
     },
     {
-        title: "3D Konfigurator ",
+        title: "3D Konfigurator",
         description: "The web-application designed for virtual exploration and customization of residential properties.",
             technologies: ['React', 'JavaScript', 'HTML & CSS', 'Flask', 'Docker', 'Nginx'],
         id: 2,
