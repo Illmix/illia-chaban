@@ -1,12 +1,3 @@
-.nav-menu {
-    display: flex;
-    flex-direction: column;
-    gap: .8em;
-    list-style-type: none;
-    text-transform: uppercase;
-    width: max-content;
-}
-
 .nav-indicator {
     width: 2rem;
     height: 0.005rem;

@@ -16,7 +16,7 @@ const NavMenu = () => {
     }, [activeSection])
 
     return (
-        <ul className="nav-menu">
+        <ul className="nav-menu flex flex-col gap-[0.8em] list-none uppercase w-max">
             {navigationButtons.map(button =>
                 <li key={button.link}>
                     <NavItem
