@@ -6,10 +6,6 @@
     width: 4rem;
 }
 
-.nav-link-text {
-    color: var(--heading-color);
-}
-
 .socials {
     display: flex;
     gap: 1em;
