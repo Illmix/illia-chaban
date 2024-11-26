@@ -11,7 +11,8 @@ interface NavItemsProps {
 const NavItem = ({label, link, active, onClick, offset}: NavItemsProps) => {
     return (
         <Link to={link} smooth={true} duration={200} offset={offset} onClick={onClick}>
-            <span className={`nav-link animate ${active ? "active" : ""} flex items-center gap-[0.6rem] cursor-pointer opacity-50`}>
+            <span className={`nav-link animate ${active ? "active" : ""} flex items-center gap-[0.6rem]
+             cursor-pointer opacity-50 hover:opacity-100`}>
                 <span className="nav-indicator animate w-[2rem] h-[0.005rem] bg-[var(--heading-color)]"></span>
                 <span className="nav-link-text">
                     {label}

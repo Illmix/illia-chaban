@@ -6,10 +6,6 @@
     width: 4rem;
 }
 
-.nav-link:hover {
-    opacity: 1;
-}
-
 .nav-link:hover .nav-indicator {
     width: 4rem;
 }
