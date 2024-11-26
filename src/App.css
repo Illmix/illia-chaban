@@ -213,6 +213,7 @@
         flex-direction: column;
         padding: 1.6rem;
         gap: 6rem;
+        align-items: center;
     }
 
     .left-side, .right-side {
