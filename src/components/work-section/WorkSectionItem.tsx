@@ -43,7 +43,7 @@ const WorkSectionItem = ({
                         {description}
                     </p>
                     <div className="technologies">
-                        <ul className="technologies-list">
+                        <ul className="technologies-list flex flex-wrap gap-[0.5rem] list-none text-[rgb(94,234,212)]">
                             {
                                 technologies.map(tech =>
                                     <li key={tech} className="technologies-item">
