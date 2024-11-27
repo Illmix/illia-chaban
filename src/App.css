@@ -6,12 +6,6 @@
     width: 4rem;
 }
 
-.socials {
-    display: flex;
-    gap: 1em;
-    list-style-type: none;
-    color: var(--heading-color);
-}
 
 .social-item {
     width: 30px;
