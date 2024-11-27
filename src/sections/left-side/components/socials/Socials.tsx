@@ -3,7 +3,7 @@ import resume from '../../../../assets/Resume.pdf'
 const Socials = () => {
     return (
         <ul className="socials flex gap-[1em] list-none text-[var(--heading-color)]">
-            <li className="animate social-item">
+            <li className="animate social-item w-6 h-6 opacity-50 cursor-pointer hover:opacity-100">
                 <a target="_blank" href="https://github.com/Illmix">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-6 w-6"
                          aria-hidden="true">
@@ -12,7 +12,7 @@ const Socials = () => {
                     </svg>
                 </a>
             </li>
-            <li className="animate social-item">
+            <li className="animate social-item w-6 h-6 opacity-50 cursor-pointer hover:opacity-100">
                 <a target="_blank" href="https://www.linkedin.com/in/illia-chaban-68971b238/">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6"
                          aria-hidden="true">
@@ -21,7 +21,7 @@ const Socials = () => {
                     </svg>
                 </a>
             </li>
-            <li className="animate social-item">
+            <li className="animate social-item w-6 h-6 opacity-50 cursor-pointer hover:opacity-100">
             <a target="_blank" href={resume}>
                     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
