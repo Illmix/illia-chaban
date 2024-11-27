@@ -20,16 +20,17 @@ const WorkSectionItem = ({
 }: WorkSectionItemProps) => {
     return (
         <a href={link} target="_blank">
-            <div className={`work-section-item animate ${className}`} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+            <div className={`work-section-item flex gap-6 cursor-pointer relative
+             animate ${className}`} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
                 {date &&
-                    <span className="work-section-dates">
+                    <span className="work-section-dates whitespace-nowrap text-[0.8rem] text-left mt-[0.2rem]">
                         {date}
                     </span>
                 }
                 {picture &&
                     <img className="work-picture animate" src={picture} alt="title"/>
                 }
-                <div className="work-section-description">
+                <div className="work-section-description flex flex-col gap-[0.4rem] flex-grow">
                     <h3 className="heading animate"><span>{title}</span><span><svg
                         width="1rem" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
