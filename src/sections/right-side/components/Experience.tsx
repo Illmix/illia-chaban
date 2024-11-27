@@ -3,7 +3,7 @@ import resume from "../../../assets/Resume.pdf"
 import WorkSectionList from "../../../components/work-section/WorkSectionList.tsx";
 const Experience = () => {
     return (
-        <div className="work-container">
+        <div className="work-container flex flex-col gap-8 relative">
             <div className="observer" id="#experience"></div>
             <h3 className="heading mobile-section-header">EXPERIENCE</h3>
             <WorkSectionList works={experiences}/>

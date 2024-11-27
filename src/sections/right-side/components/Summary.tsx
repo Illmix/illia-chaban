@@ -15,7 +15,7 @@ const Summary = () => {
     }, [isVisible])
 
     return (
-        <div className="summary-container">
+        <div className="summary-container flex flex-col gap-8 relative">
             <div className="observer" ref={ref} id="#about"></div>
             <h3 className="heading mobile-section-header">ABOUT</h3>
             <p className="summary-text">

@@ -17,7 +17,7 @@ const Projects = () => {
     }, [isVisible])
 
     return (
-        <div className="work-container">
+        <div className="work-container flex flex-col gap-4 relative">
             <h3 className="heading mobile-section-header">PROJECTS</h3>
             <WorkSectionList works={projects}/>
             <div className="observer" ref={ref} style={{bottom: '-5rem'}} id="#projects"></div>
