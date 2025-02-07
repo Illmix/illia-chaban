@@ -19,7 +19,7 @@ const Summary = () => {
             <div className="observer" ref={ref} id="#about"></div>
             <h3 className="heading mobile-section-header">ABOUT</h3>
             <p className="summary-text">
-                I'm a 20 year old fullstack developer with almost 2 years of full-time experience. Proficient in both front-end and back-end devel-
+                I'm a 20 year old fullstack developer with 2 years of full-time experience. Proficient in both front-end and back-end devel-
                 opment, with expertise in React, Next.js, TypeScript, Flask, MongoDB. Strong problem-solving abilities, a keen eye for
                 detail, and dedicated to creating robust and scalable applications.
                 I grow through challenges and strengthen through repetition.
